@@ -1,0 +1,12 @@
+services:
+  nestjs-dockerfile-test-app:
+    container_name: nestjs-dockerfile-test-app
+    build:
+      context: .
+      target: development
+    ports:
+      - "3000:3000"
+    expose:
+      - "3000"
+    volumes:
+      - .:/usr/src/app
