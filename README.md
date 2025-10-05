@@ -1,3 +1,13 @@
+# Dockerfile for Nest application
+
+This repository holds a basic [Dockerfile](./Dockerfile) that can be used to build a Nest JS application.
+
+To run the app using the Dockerfile run in the command shell:
+
+```sh
+npm run start:docker
+```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
